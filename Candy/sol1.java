@@ -1,3 +1,4 @@
+//Greedy Algorithm - One Pass method
 class Solution {
     public int candy(int[] ratings) {
         int candyArr[] = new int[ratings.length];
