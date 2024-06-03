@@ -15,15 +15,6 @@ class Solution {
                 c--;
             }
         }
-        int cnt=0;
-        for(int i=0;i<n;i++){
-            if(el==nums[i]){
-                cnt++;
-            }
-        }
-        if(cnt > n/2){
-            return el;
-        }
-        return -1;
+        return el;
     }
 }
